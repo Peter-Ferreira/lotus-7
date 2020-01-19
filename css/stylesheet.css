@@ -10,6 +10,55 @@
   
 }
 
-body > div{
-text-align: center;
+body
+{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/* Nav bar styling */
+/* I found out how to create a horizonal nav bar on w3schools, I incorperated some of their code to achive the styling I wanted.*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.5em;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* Main section button link */
+
+#home-button
+{
+  text-align: center;
+  margin-top: 35%;
+  font-size: 1.5em;
+ 
+}
+
+#home-button > button
+{
+  border-radius: 10px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  padding: 10px;
+  border-color: black;
+  background-color:#dea807;
+
 }
