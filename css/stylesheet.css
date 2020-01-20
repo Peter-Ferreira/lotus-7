@@ -1,19 +1,14 @@
 /* Image copied from https://www.wallpaperup.com/ */
-#home-image {
-    background: url("../images/lotus-7-background.jpg") 
-    no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-  
-}
 
-body
+html,body
 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  height: 100%;
 }
+/* main,.container,.row
+{
+  height: 100%;
+} */
 
 /* Nav bar styling */
 /* I found out how to create a horizonal nav bar on w3schools, I incorperated some of their code to achive the styling I wanted.*/
@@ -44,6 +39,45 @@ li a:hover {
 }
 
 /* Main section button link */
+/* .div-image-style
+{
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+} */
+/* @media only screen and (max-width: 768px) {
+.container {
+    max-width: 100%;
+} */
+
+#image-1
+{
+  background: url("../images/2013-Caterham-Seven-620-R-V7-1080.jpg") 
+  no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+  
+  
+}
+#image-2
+{
+  background: url("../images/2013-Caterham-Seven-620-R-V9-1080.jpg") 
+  no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  height:400px;
+}
+
+
 
 #home-button
 {
