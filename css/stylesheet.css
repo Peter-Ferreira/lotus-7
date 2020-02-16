@@ -4,20 +4,30 @@ html,body
 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   height: 100%;
+  background-color: #90d7d4 !important;
 }
-/* main,.container,.row
-{
-  height: 100%;
-} */
 
-/* Nav bar styling */
-/* I found out how to create a horizonal nav bar on w3schools, I incorperated some of their code to achive the styling I wanted.*/
+h1 {
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h2 {
+  padding: 15px;
+}
+p{
+  font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;
+  font-size: 18px;
+  /* background-color: black; */
 }
 
 li {
@@ -38,6 +48,10 @@ li a:hover {
   background-color: #111;
 }
 
+#nav-bar{
+  background-color: #90d7d4;
+}
+
 /* Main section button link */
 /* .div-image-style
 {
@@ -53,9 +67,14 @@ li a:hover {
     max-width: 100%;
 } */
 
+@media (min-width: 1200px){
+#container_override {
+    max-width: 1720px;
+}}
+
 #image-1
 {
-  background: url("../images/2013-Caterham-Seven-620-R-V7-1080.jpg") 
+  background: url("../images/2013-Caterham-Seven-620-R-V7-cropped.jpg") 
   no-repeat; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -95,4 +114,21 @@ li a:hover {
   border-color: black;
   background-color:#dea807;
 
+}
+
+
+/* Performance Page */
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
