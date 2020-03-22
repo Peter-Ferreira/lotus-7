@@ -28,7 +28,6 @@ ul {
   padding: 0;
   overflow: hidden;
   font-size: 18px;
-  /* background-color: black; */
 }
 
 li {
@@ -64,6 +63,8 @@ li a:hover {
   display: none;
 }
 
+/* These media queries enables the CSS below when the certain criteria has been met,
+  this is one way to create responsive displays */
 @media screen and (max-width: 600px) {
   .topnav a {display: none;}
   .topnav a.icon {
@@ -92,39 +93,16 @@ li a:hover {
   .topnav.responsive ul {
    display: grid;
   }
-
 }
 /**Nav-bar end**/
 
+/* This CSS code overwrites the bootstap container class */
 @media (min-width: 1200px){
 #container_override {
     max-width: 1720px;
 }}
 
-#image-1
-{
-  background: url("../images/2013-Caterham-Seven-620-R-V7-cropped.jpg") 
-  no-repeat; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 400px;
-  
-  
-}
-#image-2
-{
-  background: url("../images/2013-Caterham-Seven-620-R-V9-1080.jpg") 
-  no-repeat; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-size: cover;
-  height:400px;
-}
-
+/* This CSS feature increases the size of the element where this class is applied */
 .image-zoom:hover{
   transform: scale(1.1);
 }
@@ -139,7 +117,6 @@ li a:hover {
   text-align: center;
   margin-top: 35%;
   font-size: 1.5em;
- 
 }
 
 #home-button > button
@@ -149,12 +126,14 @@ li a:hover {
   padding: 10px;
   border-color: black;
   background-color:#dea807;
-
 }
-
 
 /* Performance Page */
 
+/* Reference video: This code was copied from the below reference.
+URL - https://www.youtube.com/watch?v=8CRdQA7R9xs
+Author - Autocar
+Date - Sep 3, 2013*/
 .iframe-container{
   position: relative;
   width: 100%;
@@ -169,6 +148,7 @@ li a:hover {
   height: 100%;
   border-radius: 10px;
 }
+/*****************************************/
 
 .thumbnail{
   border-radius: 10px !important;
@@ -188,8 +168,10 @@ li a:hover {
   border-radius: 10px;
 }
 
+/* End Build Lotus Page */
 
 /**Events Page**/
+
 .events-list{
   padding-left: 35px;
   font-size: 15px;
@@ -225,14 +207,17 @@ footer{
   background: #3B5998;
   color: white;
 }
+
 .fa-instagram {
   background: rgb(131, 21, 63);
   color: white;
 }
+
 .fa-twitter {
   background: #55ACEE;
   color: white;
 }
+
 .footer-social-media
 {
   text-align: center;

@@ -16,8 +16,12 @@
 </head>
 <body>
     <header>
+      <!-- I used an un-ordered list to create my nav bar and w3schools to give me ideas on how to create dynamic nav-bars.
+      As stated in my JS script file - I referenced w3schools to help me created a mobile view nav-bar button.
+      I edited and manipulated the code which made it easier for me to understand and for it to work well with my website.
+      -->
         <nav class="navbar navbar-default" id="nav-bar">
-          <div class="topnav"  id="myTopnav" style="justify-content: center;">
+          <div class="topnav" id="myTopnav" style="justify-content: center;">
             <ul>
               <li><a  href="index.html">Home</a></li>
               <li><a  href="events.html">Racing Events and Lotus runs</a></li>
@@ -26,18 +30,25 @@
               <li><a  href="performance.html">Performance</a></li>
               <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
-              </a></li>
+                </a></li>
             </ul>
           </div>
         </nav>
     </header>
     <main>
+       <!-- I used Bootstap throughout my website to create a well formatted and responsive design. When I wanted to change how bootstap 
+        displayed something I would create an 'override' ID field or use the 'important' attribute in the CSS. I also used a thumbnail bootstap class throughout
+        my website to make the pages aesthetically pleasing by placing a white border around images and text-blocks -->
         <h1>Want one? why not build your own!</h1>
           <div class="container" id="container_override">
             <div class="row" style="padding: 15px;">
               <div class="col-md-12">
                 <div class="thumbnail">
-                <img src="/images/2013-Caterham-Seven-620-R-V7.jpg" alt="7" style="width: 100%;" >
+                  <!-- Image reference: 
+                  URL - https://carsmind.com/2018-Caterham-Seven-620R.specs48008
+                  Date - Unkown
+                  Author - carsmind -->
+                <img src="/images/2013-Caterham-Seven-620-R-V7.jpg" alt="lotus-7-620R" style="width: 100%;" >
                 </div>
               </div>
             </div>
@@ -47,10 +58,10 @@
               <div class="col-md-3">
                 <div class="thumbnail image-zoom">
                   <!-- Image reference: 
-                    https://www.motoringresearch.com/car-reviews/caterham-seven-270-track-review/ 
-                    July 4
-                    2019 Tim Pitt -->
-                  <a href="events.html"><img  src="/images/Lotus-events.jpg" alt="7" style="width: 100%;" ></a>
+                    URL -https://www.motoringresearch.com/car-reviews/caterham-seven-270-track-review/ 
+                    Date - July 4 2019 
+                    Author - Tim Pitt -->
+                  <a href="events.html"><img  src="/images/Lotus-events.jpg" alt="lotus-events" style="width: 100%;" ></a>
                   <div class="caption">
                     <p>See when the new Lotus runs and racing events are taking place!</p>
                   </div>
@@ -60,7 +71,7 @@
                 <div class="thumbnail image-zoom">
                   <!-- Image reference: 
                     https://www.wsupercars.com/car-wallpaper-download.php?title=2012%20Caterham%20Seven%20620%20R&res=1920%20x%201080&pic=wallpapers/Caterham/2013-Caterham-Seven-620-R-V9-1080.jpg -->
-                  <a href="build-lotus.html"><img  src="/images/2013-Caterham-Seven-620-R-V9-1080.jpg" alt="7" style="width: 100%;" ></a>
+                  <a href="build-lotus.html"><img  src="/images/2013-Caterham-Seven-620-R-V9-1080.jpg" alt="lotus-7-620R" style="width: 100%;" ></a>
                   <div class="caption">
                     <p>Are you interested to build your very own Lotus 7? Check this out!</p>
                   </div>
@@ -70,7 +81,7 @@
                 <div class="thumbnail image-zoom">
                   <!-- Image reference: 
                     https://www.wsupercars.com/car-wallpaper-download.php?title=2016%20Caterham%20Seven%20620%20S&res=1920%20x%201080&pic=wallpapers/Caterham/2016-Caterham-Seven-620-S-V1-1080.jpg -->
-                  <a href="gallary.html"><img  src="/images/Lotus-gallery.jpg" alt="7" style="width: 100%;" ></a>
+                  <a href="gallary.html"><img  src="/images/Lotus-gallery.jpg" alt="Lotus-gallery" style="width: 100%;" ></a>
                   <div class="caption">
                     <p>Check out this photo gallery of different lotus 7 builds.</p>
                   </div>
@@ -91,6 +102,7 @@
             </div>
           </div>
     </main>
+    <!-- simple footer with links to varies socail media platforms - I used font-awesome for the media icons  -->
     <footer>
      <div class="container">
        <div class="row">
