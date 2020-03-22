@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
-     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Lotus 7</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-default" id="nav-bar">
-            <div class="container-fluid" style="justify-content: center;">
-              <ul>
-                <li><a  href="index.html">Home</a></li>
-                <li><a  href="events.html">Racing Events and Lotus runs</a></li>
-                <li><a  href="build-lotus.html">Build your own race car!</a></li>
-                <li><a  href="gallary.html">Gallary</a></li>
-                <li><a  href="performance.html">Performace</a></li>
-              </ul>
-            </div>
-          </nav>
+      <nav class="navbar navbar-default" id="nav-bar">
+        <div class="topnav"  id="myTopnav" style="justify-content: center;">
+          <ul>
+            <li><a  href="index.html">Home</a></li>
+            <li><a  href="events.html">Racing Events and Lotus runs</a></li>
+            <li><a  href="build-lotus.html">Build your own race car!</a></li>
+            <li><a  href="gallery.html">Gallery</a></li>
+            <li><a  href="performance.html">Performance</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <main>
         <div class="container">
             <div class="row" style="padding: 15px;">
               <div class="col-md-8">
-                <div class="thumbnail">
+                <div class="thumbnail th-background">
+                  <!-- Video reference: 
+                  URL - https://www.youtube.com/watch?v=8CRdQA7R9xs
+                  Author - Autocar 
+                  Date - Sep 03 2013-->
                     <div class="iframe-container">
                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/8CRdQA7R9xs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
+                    <!-- Content Resource:
+                    URL - https://www.timemachineauto.com/seven-620.html
+                    Author - Time Machines -->
                     <h2>The new Seven® 620 R is the fastest road car we've ever made. It's not for the faint-hearted...</h2>
                     <p> The new Caterham Seven® 620 R features a wide range of performance enhancements that will see it surpass the R500's legendary status... and then some. 
                         By harnessing the Carbon Fibre trickery of the Caterham F1 Team and the technical prowess, sheer desire, experience and all round know-how of our crack 
@@ -43,6 +54,10 @@
                         equivalent of attaching a rocket to a missile. We've taken something really fast and made it really fast. Delivering a mighty 310 bhp and a huge amount of torque, 
                         the 620 R is equipped with the sort of performance that is very hard to explain within the constraints of the English language or the laws of physics.
                     <br><br>
+                    <!-- Image Reference:
+                    URL - https://www.autocar.co.uk/car-review/caterham/seven-620r
+                    Author - Autocar -->
+                    <img class="thumbnail" src="/images/Lotus-engine.jpg" alt="Lights" style="width:100%">
                         Furthermore, the car has been developed and honed to not only be capable of withstanding the power, but to harness it. With a entirely new sequential gearbox 
                         and uprated drive train coupled to newly developed suspension components courtesy of the Caterham F1 team the 620 R delivers more feel and handles better than 
                         anything we've ever built. We're rather proud of it. All this is coupled with weight saving measures and ergonomical improvements wherever possible, which has 
@@ -55,8 +70,12 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="thumbnail">
-                    <p> <strong>#1: It’s rare</strong>
+                <div class="thumbnail th-background">
+                  <!-- Content resource: 
+                  URL - https://petrolicious.com/articles/6-reasons-to-drive-a-lotus-7
+                  Auhtor - Brendan McAleer
+                  Date - April 30 2015-->
+                    <p style="padding-bottom: 35px;"> <strong>#1: It’s rare</strong>
                         <br>
                         The Seven is an ideal car for the collector willing to delve deep into arcane build options and figure out which cars hold 
                         their value best. Between its introduction in 1957 and end of production in 1972, about 2,500 Super Sevens were made.
@@ -82,14 +101,13 @@
                         <br>
                         In a modern world where the corners have been sanded off of everything and our cars are practically hollowed-out Nerf balls with heated seats, the Seven has a frisson
                         of risk about it. Again, it’s like a motorcycle, with gossamer bodywork that provides about as much protection as a light jacket. Without romanticizing the danger
-                        overmuch, driving around in a Seven feels daring at speeds which the constabulary won’t find offensive. You never fail to unfold yourself from its cockpit without 
-                        a raised pulse, and every trip becomes an event. Even in the classic car world, few can match the real-world fun it offers.
+                        overmuch, driving around in a Seven feels daring at speeds which the constabulary won’t find offensive. 
                         <br><br>
                         <strong>#6: It can go the distance</strong>
                         <br>
                         Assuming the driver is possessed of sound constitution and a good set of woollen underwear, the Seven is not incapable of a solid road trip. Because it’s so simple, 
                         keeping it on the road isn’t the hair-tearing struggle it can be with more high-strung machinery, and if you forgo a passenger, a duffel bag fits just fine to your 
-                        right. The main car featured in this article is driven year-round, rain or shine, and regularly participates in local multi-day cruise events.
+                        right.
                     </p>
                 </div>
               </div>
@@ -98,12 +116,21 @@
         
     </main>
     <footer>
-
-    </footer>
-     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <div class="container">
+        <div class="row">
+           <div class="col-md-12">
+             <div class="footer-social-media">
+               <h2> Check us out on social media!</h2>
+               <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+               <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+               <a href="https://twitter.com/" class="fa fa-twitter"></a>
+               <p>@Copyright 2020.<br>All rights reserved. Created by Peter Ferreira</p>
+             </div>
+           </div> 
+         </div> 
+        </div>
+     </footer>
+      <!-- JavaScript reference-->
+    <script src="/js/script.js"></script>
 </body>
 </html>

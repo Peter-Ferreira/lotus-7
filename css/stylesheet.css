@@ -1,5 +1,3 @@
-/* Image copied from https://www.wallpaperup.com/ */
-
 html,body
 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -16,11 +14,14 @@ h2 {
 }
 p{
   font-size: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
+    padding: 15px;
 }
 
+img{
+  border-radius: 10px;
+}
+
+/**Nav bar start**/
 ul {
   list-style-type: none;
   margin: 0;
@@ -45,27 +46,55 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  color: white;
+  opacity: 0.7;
 }
 
 #nav-bar{
   background-color: #90d7d4;
 }
 
-/* Main section button link */
-/* .div-image-style
-{
-  
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
-} */
-/* @media only screen and (max-width: 768px) {
-.container {
-    max-width: 100%;
-} */
+/* Responsive nav-bar for mobile/tablet use:
+  URL - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav
+  I used w3schools to help me incorporate this feature into my website.
+  This took me a long time to master as I needed it to look right and work correctly for my website.
+  I simplified the code and changed it to make it easier to understand and follow.*/
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    color:white;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: -20px;
+    width: 0px;
+    font-size: 15px;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    padding: 0px;
+  }
+  .topnav.responsive ul {
+   display: grid;
+  }
+
+}
+/**Nav-bar end**/
 
 @media (min-width: 1200px){
 #container_override {
@@ -96,7 +125,14 @@ li a:hover {
   height:400px;
 }
 
+.image-zoom:hover{
+  transform: scale(1.1);
+}
 
+.caption > p{
+  font-size: 14px;
+  font-weight: 800;
+}
 
 #home-button
 {
@@ -131,4 +167,77 @@ li a:hover {
   left: 0;
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
+
+.thumbnail{
+  border-radius: 10px !important;
+}
+.th-background{
+  font-size: 16px;
+  background-color: #0e8a97 !important;
+  color: white;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+/* Build Lotus Page */
+
+.Side-bar{
+  margin: 15px;
+  border-radius: 10px;
+}
+
+
+/**Events Page**/
+.events-list{
+  padding-left: 35px;
+  font-size: 15px;
+  list-style-type: disc;
+}
+.events-list li{
+  float: none;
+}
+/**End Events Page**/
+
+/** Footer Section **/
+
+footer{
+  /* height: 200px; */
+  background-color:#293548;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 2em !important;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+}
+
+.fa:hover {
+    color: inherit;
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: rgb(131, 21, 63);
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.footer-social-media
+{
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+/** End Footer section **/

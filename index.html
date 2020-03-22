@@ -7,30 +7,32 @@
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <!-- Font reference: Using this stylesheet for my footer icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Lotus 7</title>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-default" id="nav-bar">
-          <div class="container-fluid" style="justify-content: center;">
+          <div class="topnav"  id="myTopnav" style="justify-content: center;">
             <ul>
               <li><a  href="index.html">Home</a></li>
               <li><a  href="events.html">Racing Events and Lotus runs</a></li>
               <li><a  href="build-lotus.html">Build your own race car!</a></li>
-              <li><a  href="gallary.html">Gallary</a></li>
-              <li><a  href="performance.html">Performace</a></li>
+              <li><a  href="gallery.html">Gallery</a></li>
+              <li><a  href="performance.html">Performance</a></li>
+              <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a></li>
             </ul>
           </div>
         </nav>
     </header>
     <main>
-
-      <!-- <h1>Want one ? why not build your own!</h1>
-          <img src="/images/2013-Caterham-Seven-620-R-V7.jpg" alt="Lights" style="width:100%"> -->
-          <h1>Want one ? why not build your own!</h1>
+        <h1>Want one? why not build your own!</h1>
           <div class="container" id="container_override">
             <div class="row" style="padding: 15px;">
               <div class="col-md-12">
@@ -40,60 +42,71 @@
               </div>
             </div>
           </div>
-
         <div class="container" id="container_override">
             <div class="row" style="padding: 15px;">
               <div class="col-md-3">
-                <div class="thumbnail">
-                  <img src="/images/2013-Caterham-Seven-620-R-V9-1080.jpg" alt="7" style="width: 100%;" >
+                <div class="thumbnail image-zoom">
+                  <!-- Image reference: 
+                    https://www.motoringresearch.com/car-reviews/caterham-seven-270-track-review/ 
+                    July 4
+                    2019 Tim Pitt -->
+                  <a href="events.html"><img  src="/images/Lotus-events.jpg" alt="7" style="width: 100%;" ></a>
                   <div class="caption">
-                    <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    <p>See when the new Lotus runs and racing events are taking place!</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-3">
-                <div class="thumbnail">
-                  <img src="/images/2013-Caterham-Seven-620-R-V9-1080.jpg" alt="7" style="width: 100%;" >
+                <div class="thumbnail image-zoom">
+                  <!-- Image reference: 
+                    https://www.wsupercars.com/car-wallpaper-download.php?title=2012%20Caterham%20Seven%20620%20R&res=1920%20x%201080&pic=wallpapers/Caterham/2013-Caterham-Seven-620-R-V9-1080.jpg -->
+                  <a href="build-lotus.html"><img  src="/images/2013-Caterham-Seven-620-R-V9-1080.jpg" alt="7" style="width: 100%;" ></a>
                   <div class="caption">
-                    <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    <p>Are you interested to build your very own Lotus 7? Check this out!</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-3">
-                <div class="thumbnail">
-                <img src="/images/2013-Caterham-Seven-620-R-V9-1080.jpg" alt="7" style="width: 100%;" >
-                <div class="caption">
-                  <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-                </div>
+                <div class="thumbnail image-zoom">
+                  <!-- Image reference: 
+                    https://www.wsupercars.com/car-wallpaper-download.php?title=2016%20Caterham%20Seven%20620%20S&res=1920%20x%201080&pic=wallpapers/Caterham/2016-Caterham-Seven-620-S-V1-1080.jpg -->
+                  <a href="gallary.html"><img  src="/images/Lotus-gallery.jpg" alt="7" style="width: 100%;" ></a>
+                  <div class="caption">
+                    <p>Check out this photo gallery of different lotus 7 builds.</p>
+                  </div>
                 </div>
               </div>
               <div class="col-md-3">
-                <div class="thumbnail">
-                  <img src="/images/2013-Caterham-Seven-620-R-V9-1080.jpg" alt="7" style="width: 100%;" >
+                <div class="thumbnail image-zoom">
+                  <!-- Image reference: 
+                    https://www.motor1.com/news/186179/caterham-seven-donuts-record-video/
+                    NOV 09, 2017 at 12:03PM	
+                    Jeff Perez-->
+                  <a href="performance.html"><img  src="/images/Lotus-performance.jpg" alt="7" style="width: 100%;" ></a>
                   <div class="caption">
-                    <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    <p>Want to see how these beasts perform? Read up on them here!</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-
-        <!-- <div class="row">
-            <div id="home-button" class="col-md-12">
-                <button id="love-speed">Love speed? Check this out!</button>
-            </div>
-        </div> -->
-
-
     </main>
     <footer>
-
+     <div class="container">
+       <div class="row">
+          <div class="col-md-12">
+            <div class="footer-social-media">
+              <h2> Check us out on social media!</h2>
+              <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+              <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+              <a href="https://twitter.com/" class="fa fa-twitter"></a>
+              <p>@Copyright 2020.<br>All rights reserved. Created by Peter Ferreira</p>
+            </div>
+          </div> 
+        </div> 
+       </div>
     </footer>
-     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     <!-- JavaScript reference-->
+    <script src="/js/script.js"></script>
 </body>
 </html>
