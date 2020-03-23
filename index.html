@@ -12,13 +12,18 @@
      <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Lotus 7</title>
+    <title>Peter's Lotus 7 club</title>
+    <link rel="shortcut icon" type="image/png" href="/images/Icon-lotus.png">
 </head>
 <body>
     <header>
-      <!-- I used an un-ordered list to create my nav bar and w3schools to give me ideas on how to create dynamic nav-bars.
-      As stated in my JS script file - I referenced w3schools to help me created a mobile view nav-bar button.
+      <!-- I used an un-ordered list and bootstrap to create my nav bar and w3schools to give me ideas on how to create dynamic nav-bars.
+      As stated in my JS script file and stylesheet.css - I referenced w3schools to help me created a mobile view nav-bar button (please see CSS stylesheet for reference)
       I edited and manipulated the code which made it easier for me to understand and for it to work well with my website.
+      Reference: 
+      URL - https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_basic_html
+      Author - w3schools
+      Date - Unknown
       -->
         <nav class="navbar navbar-default" id="nav-bar">
           <div class="topnav" id="myTopnav" style="justify-content: center;">
@@ -28,6 +33,12 @@
               <li><a  href="build-lotus.html">Build your own race car!</a></li>
               <li><a  href="gallery.html">Gallery</a></li>
               <li><a  href="performance.html">Performance</a></li>
+              <!-- Responsive nav-bar for mobile/tablet use:
+              URL - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav
+              Author - w3schools
+              I used w3schools to help me incorporate this feature into my website.
+              This took me a long time to master as I needed it to look right and work correctly for my website.
+              I simplified the code and changed it to make it easier to understand and follow. -->
               <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
                 </a></li>
@@ -37,7 +48,7 @@
     </header>
     <main>
        <!-- I used Bootstap throughout my website to create a well formatted and responsive design. When I wanted to change how bootstap 
-        displayed something I would create an 'override' ID field or use the 'important' attribute in the CSS. I also used a thumbnail bootstap class throughout
+        displayed something I would create an 'override' ID or class field or use the 'important' attribute in the CSS. I also used a thumbnail bootstap class throughout
         my website to make the pages aesthetically pleasing by placing a white border around images and text-blocks -->
         <h1>Want one? why not build your own!</h1>
           <div class="container" id="container_override">
@@ -81,7 +92,7 @@
                 <div class="thumbnail image-zoom">
                   <!-- Image reference: 
                     https://www.wsupercars.com/car-wallpaper-download.php?title=2016%20Caterham%20Seven%20620%20S&res=1920%20x%201080&pic=wallpapers/Caterham/2016-Caterham-Seven-620-S-V1-1080.jpg -->
-                  <a href="gallary.html"><img  src="/images/Lotus-gallery.jpg" alt="Lotus-gallery" style="width: 100%;" ></a>
+                  <a href="gallery.html"><img  src="/images/Lotus-gallery.jpg" alt="Lotus-gallery" style="width: 100%;" ></a>
                   <div class="caption">
                     <p>Check out this photo gallery of different lotus 7 builds.</p>
                   </div>
@@ -93,7 +104,7 @@
                     https://www.motor1.com/news/186179/caterham-seven-donuts-record-video/
                     NOV 09, 2017 at 12:03PM	
                     Jeff Perez-->
-                  <a href="performance.html"><img  src="/images/Lotus-performance.jpg" alt="7" style="width: 100%;" ></a>
+                  <a href="performance.html"><img  src="/images/Lotus-performance.jpg" alt="lotus-spinning" style="width: 100%;" ></a>
                   <div class="caption">
                     <p>Want to see how these beasts perform? Read up on them here!</p>
                   </div>
@@ -102,16 +113,16 @@
             </div>
           </div>
     </main>
-    <!-- simple footer with links to varies socail media platforms - I used font-awesome for the media icons  -->
+    <!-- simple footer with links to varies social media platforms - I used font-awesome for the media icons  -->
     <footer>
      <div class="container">
        <div class="row">
           <div class="col-md-12">
             <div class="footer-social-media">
               <h2> Check us out on social media!</h2>
-              <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-              <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
-              <a href="https://twitter.com/" class="fa fa-twitter"></a>
+              <a target="_blank" href="https://www.facebook.com/" class="fa fa-facebook"></a>
+              <a target="_blank" href="https://www.instagram.com/" class="fa fa-instagram"></a>
+              <a target="_blank" href="https://twitter.com/" class="fa fa-twitter"></a>
               <p>@Copyright 2020.<br>All rights reserved. Created by Peter Ferreira</p>
             </div>
           </div> 
